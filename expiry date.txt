@@ -1,0 +1,54 @@
+	expiry date: or batchwise
+	==================
+
+	question:
+	=========
+
+	batchwise details
+		
+	purchase from bhava medicals
+
+	item	 nos		price	MED    exp.d			kalpal	 50		2	1/1/14 1/9/14
+
+	kalpal	   50		2.00	1/7/2014   1/12/14
+
+	vicks
+	action 500    35		1.50	1/4/14       1/11/14
+	
+	digene	   40		0.50	1/2/14	1/10/14
+
+	paracitamol 45		2	1/5/14	1/11/14
+
+	
+	sales to sena medicals
+
+	item		nos	price	batchno
+	kalpal		35	3	kpo11
+
+	vicks action
+	500		25	2.50	vk412
+	
+	digene		34	1	dd675
+		
+	paracitamol	40	3	pc345
+
+
+
+	ans: 
+	step 1: company creation
+	           maintain : accounts with inventary
+	step 2:
+	           leadge creation
+	step 3:
+	           inventary info
+		  - stock groups
+		  - unit of meause
+		  - stock items --> create --> f11(featues) --> 
+			maintain batch wise details : yes
+			set expiry dates for batches: yes
+			ok
+	step 4:
+	           accounting voucher
+	step 5: result: dispaly-->inventary books --> ageing analysis.
+
+	

@@ -1,0 +1,55 @@
+	
+	BUDGET
+	======
+
+	comparision of expenses.
+
+	last year expenses and current year expenses.
+
+	questions:
+	====
+
+	31-3-2016:		31-3-2017	
+	rent 36000		rent 42000
+	eb 3000		eb 2800
+	milk 25000		milk 18000	
+	veg   10000		veg 15000	
+	cable  1000	cable 750
+	education 12000	education 25000
+
+
+	step 1:company creation
+	       maintain : accounts only
+	step 2:accounts info -->f11 -->accounting featues
+		--> company select --> maintain budget control : yes
+		save.
+	step 3:ledger creation (all in/direct exp)
+	step 4: accounts info-->budget --> any name
+		from       to         group    ledger
+
+		1-4-2014 31-3-2015   no	    yes
+
+		
+		last year expenses
+	
+	step 5: voucher -->current year expense
+	step 6: display -->trial balance -->budget name select-->alt+b.
+		
+		
+
+		
+
+	
+
+
+	
+	
+
+
+	
+
+	
+	
+
+	
+	

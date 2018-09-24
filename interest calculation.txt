@@ -1,0 +1,38 @@
+interest calculation
+==============
+question:1
+		
+muthu capital Rs. 1,00,000 (interest 12%,365 days)
+
+Deposit to KVB Rs. 10,000 (interest 6%,365 days)
+
+deposit to finance Rs. 25,000(Rs.2, montly(30 days))
+
+
+step 1: company create ( accounts only)
+step 2: f11--> accounts features --> activate interest calculation : yes
+use advanced parameter : yes
+debit or credit notes :yes
+use invoice note for credit notes : yes
+use invoice note for debit notes : yes
+step 3:
+	ledger create
+	1) - muthu capital - capital account- 
+	activate interest calcualtion : yes
+	rate: 12%  365 days
+	opening balance: 100000
+	2) bank of kvb : bank accounts
+	activate interest calcualation : yes
+	,,,,
+
+step 4:
+	display -->statement of accounts -->interest calculation
+	--> receivable or payable
+	alt + f2 : date change
+
+
+				 
+		
+			
+		
+	

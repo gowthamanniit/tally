@@ -1,0 +1,21 @@
+ 
+	budget:
+	======
+	1) step 1: company creation maintain : accounts only
+		date: 1-4-2014
+		         1-4-2014
+
+	2) f11 - maintain budget : yes
+	3) ledger : amunt not entry (all indirect expense)
+	4) budget  
+		name:any 
+		 from 1.4.2014 to 31.3.2015
+		ledger :yes
+		last year exp add
+	5) accounting voucher : payment : individual
+	
+		current year exp
+
+	6) display --> trail balance --> alt+b (alt +f1)
+			- ve (exp over)
+			+ve (exp small)

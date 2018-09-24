@@ -1,0 +1,67 @@
+
+	TCS:  TAX COLLECTED AT SOURCE
+	============================
+
+	(TIMBER - SALES from one place to another place)
+		eg: kerala to tamilnadu 
+	
+	QUESTION:
+	=========
+	
+	PURCHASE FROM SRINIVASAN
+		
+		NEEM TREE  150 / Rs. 3000/tree
+		SANDAL TREE 300 / Rs. 2000/tree
+
+	SALES TO RAM
+		NEEM TREE	70 /  Rs. 5000
+		SANTAL TREE	100 / Rs. 6000
+	
+	TCS TAX PAID TO INDIAN BANK.
+	======================================================
+	
+	answer:	
+		1) company creation (accounts with inventary only)
+		2) f11--> saturay and taxation --> tcs : yes
+				set/ alter tcs : yes
+				collected type: others		
+				accept
+		3) ledger
+			purchase : purchase accounts
+			srinivasan : sundry creditots
+				tcs:yes -->license: body of the individual
+			sales : sales a/c
+			ram : sundry deptors
+			tcs: yes -->license: body of the individual
+			indian bank : bank accounts
+			tcs sandal tree : duties and taxes
+			tcs neem tree: duties and taxes.	
+		4) inventary info:		
+			stock groups:any name
+			unit of measue: cft (centi feet)
+			stock items: tcs nature of goods: timber obtained for any goods...
+		5) accounting voucher
+			f9-purchase
+				sandal 150 3000
+				neem  300 2000
+			f8:- sales (individual entry)
+				sandal	
+				tcs sandal
+				-----------
+				neem
+				tcs neem
+				-------------
+			f5: payment
+				dr: tcs sandal tree
+				cr : bank
+				dr: tcs neem tree
+				cr-bank
+				
+		
+		6) display --> saturary reports --> tcs report--> print 27b format.
+
+	
+		
+		
+			
+	
