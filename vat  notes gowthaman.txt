@@ -1,0 +1,44 @@
+
+	
+VAT:
+	VALUE ADDED TAX:
+
+	STEP 1: Company creation
+	step 2: f11(company features)
+	        saturary and taxation
+		enable vat: Yes
+		set/alter vat details : yes
+	step 3:
+		leader creation:
+		
+		purchase 4  --> purchase a/c --> set/alter vat --> yes
+				--> purchase tax -->4%
+		purchase 12.5--> ,,
+		sales 4     --> sales a/c   ,,
+				sales tax --> 4 %
+		sales 12.5 -->
+
+		akber	--> sundry creditors
+		mani    -->sundry debtors
+		input vat 4 --> duties and taxes
+				type of duty/taxes : VAT
+				percentage of calculation: 4%
+		input vat 12.5	  ,,
+		output vat 4      ,,
+		output vat 12.5   ,,
+	step 4:
+		accounting voucher
+		
+		purchase
+				input vat mention(result)
+		sales		
+				output vat mention at end of the bill
+		alt+p
+	step 5:
+		display
+		statutory reports
+		vat
+		ectax
+	
+		
+		 
