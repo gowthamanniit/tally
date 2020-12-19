@@ -1,0 +1,81 @@
+Point Of Sales(POS)
+===================
+def: bill book in your own format.
+
+Question:
+Purchase from sakthi
+Cpu 100 no’s 7500
+Monitor 150 no’s 3000
+Mouse 200 no’s 300
+Sales to nisha
+Cpu 75 no’s 10000
+Monitor 100 no’s 4000
+Mouse 50 no’s 500
+Discount some -10%
+crdit or debit card /Cash / cheque accepted on sales.
+
+step 1:
+	company creation.
+step 2:
+	accounts info,
+	ledger creation.
+	purchase - purchase a/c
+	sales    - sales a/c
+	sakthi   - sundry creditor
+	nisha    - sundry debtor
+	discount - indirect expenses
+	bank     - bank a/c
+step 3:
+	inventary info
+	stock group
+	unit of measure
+	stock items --> f12 allow set standard rates: yes
+	voucher types:(override inbuilt sales)
+	create: name: myformatsalesbill
+		select type of voucher: sales
+		method of voucher numbering: automatic
+		use advanced configuration: yes
+		starting number: 9001
+		width of numeric part: 10 digits		
+		prefill with zero: yes :ex:(0000009001)
+
+		restart numbering: 0 never,	
+		prefix,suffix: empty
+
+	use effective dates for voucher: yes
+	make this vou....: yes
+	narration,. : yes
+	provide: yes
+	enable default account allocation: no
+	set/alter: no
+	printing:
+		print vouccher after saving: yes
+		use for pos invoice: yes
+		message of print1: goods once sold will not be refund
+		message of print2: Thank you visit again.
+		default title: sri murugan thunai or kaviya electronics pvt ltd.
+		declaration: type any : ex: for enquires pls contact: 9894083890
+	name of class:
+			classname (samename-myformatsalesbill)
+		default ledger acc: gift voucher: not 		
+					credit card: yes bank		
+					check: yes bank
+					cash: yes cash
+		
+		sales:   100%
+
+		discount: on total sales:  -10
+
+step 5: accounting voucher:
+		purchase:
+			...
+		sales:(f8) select myformatsalesbill
+	
+		discount will come automattically.
+	
+	
+	
+			
+		
+	
+		
