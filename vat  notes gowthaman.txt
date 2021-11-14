@@ -13,6 +13,14 @@ sum:
 	diesel		2000	   litre	29		200%
 	gas		2000	   kg		20		150%	
 	
+	sales goods to BALA
+	
+	item		qty       unit		rate/qty 	vat tax %
+	
+	petrol		5 	   litre	35		210%
+	diesel		5	   litre	29		200%
+	gas		15	   kg		20		150%	
+	
 	
 	
 	STEP 1: Company creation
