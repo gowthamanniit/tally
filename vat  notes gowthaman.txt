@@ -3,6 +3,18 @@
 VAT:
 	VALUE ADDED TAX:
 
+
+sum:
+	purchase goods from raman
+		
+	item		qty       unit		rate/qty 	vat tax %
+	
+	petrol		1000 	   litre	35		210%
+	diesel		2000	   litre	29		200%
+	gas		2000	   kg		20		150%	
+	
+	
+	
 	STEP 1: Company creation
 	step 2: f11(company features)
 	        saturary and taxation
