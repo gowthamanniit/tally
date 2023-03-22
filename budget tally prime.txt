@@ -1,0 +1,34 @@
+budget:
+	step 1: company creation
+	step 2: ledger --> all in indirect expenses
+	            (do not add amt)
+		ex:
+		eb-->indirect expenses
+		water -->
+		milk
+		education
+		vegitables
+	step 3:
+		master-->create--> show more --> budget
+		
+		budget name: anyname
+		under: primay 
+		from 	           to		groups	ledger
+		1-4-2022	      31-3-2023	no	yes	
+	
+		---------
+		eb		closing balance	old expenses type
+		water
+		edcuation
+		yes
+	step 4:
+		voucher --> f5 payment
+	
+		current year expenses  add
+
+	step 5:
+		gateway of tally
+		display more reports-->trail balance
+		f10 press --> select budgetname --> enter-->detail (alt+f1)
+
+		

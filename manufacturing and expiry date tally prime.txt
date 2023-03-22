@@ -1,0 +1,71 @@
+
+
+purchase from bhava medicals
+
+item 		nos 	price 	MED 	exp.d
+kalpal 		50 	2.00 	1/7/2022 	1/12/22
+Vicksaction 500 	35 	1.50 	1/4/2022 	1/11/22
+digene 		40 	0.50 	1/2/2022 	1/10/22
+paracitamol 	45 	2 	1/5/2022 	1/11/22
+
+sales to sena medicals
+item 		nos 	price 	batchno
+kalpal 		35 	3 	kpo11
+vicks action500 	25 	2.50 	vk412
+digene 		34 	1 	dd675
+paracitamol 	40 	3 	pc345
+
+manufacturing and expiry date:
+=======================
+step 1: company creation.
+	inventary
+	Enable batches: Yes
+	maintain expiry date for batches: yes
+step 2:
+	masters: create-->ledger
+	
+	purchase -------------> purchase accounts
+	sales------------------> sales accounts
+	bawa medicals-----> sundry creditors
+	sena medicals ------> sundry debtors
+step 3:
+	Inventary master:
+	stock groups: anyname medicals
+	unit: no's numbers
+	stock items:
+	item name: kalpal
+	under: stock group name
+	unit: no's
+	additional details:
+	maintain in batches: yes
+	track date of manufacturing: yes
+	use expiry date: yes
+
+	set standard rates: yes
+	set standard rates not available ? f12 press: provide standard buying and selling rates: yes
+
+	remaining stock items are same procedure
+step 4:
+	voucher
+	f9:(purchase)
+	kalpal
+		batchno	qty	rate	total
+		mgtdate  expdate
+
+	same remaining
+
+step 5:sales
+	f8
+	
+step 6: report
+	
+	1) gateway of tally: stock summary
+	2) display more reports
+	--> statement of inventary
+	--> ageing analysis
+
+	
+
+
+
+

@@ -1,0 +1,33 @@
+additional cost of purchase:
+======================
+	def: add extra expenses in stock items.
+
+step 1:
+	company creation:
+	use inventary allocation: yes
+
+step 2:
+	ledger:
+	capital
+	johnson and johnson
+	bank
+	packing--> inventary values affected : yes
+	octory duty  ,,
+	carriage       ,,
+step 3:
+	stock group name
+	unit
+	stock items
+step 4:
+	f8
+	f4
+	f9 (single entry mode)
+	f6
+		dr :octory duty
+			babyoil : 1000
+			babysoap:
+			babypowder:
+		cr :cash
+		
+step 5:
+	display --> statement of inventary -->stock query

@@ -1,0 +1,39 @@
+Example: ( purchase Order)
+
+vishnu company purchased 50 pieces of HCL Computer from ABC Company on 1.4.2014 at Rate Rs.15000 , but received only 40 pieces of Computer. Due to damage, 10 pieces returned to his supplier and finally received only 30 pieces of computer.
+Maintain the above transactions.
+
+step1: company createion
+         enable job order processing: yes
+step 2: master-->create
+	        ledger
+	abc compnay: sundry creditor
+	purchase:purchase a/c
+step 3: inventary master:
+	stock groups--any name
+	unit: nos
+	stock item: hcl computer
+step 4:
+	voucher
+	f10(other vouchers)
+	show inactive
+	ctrl+f9(purchase order)
+	activate now--> yes
+	----------------
+	f10 (other voucher)
+	alt+f9(receipt note)
+	activate now--> yes
+	---------------	
+	f10(other voucher)
+	ctrl+f5(rejection out - pur.return 	- goods return to - returnoutward)
+	---------------------
+	f9(purchase)
+	automatic: 30
+	--------------------
+step 5:
+	report:
+	gateway of tally-->display more reports --> statement of inventary
+	--> purchase order outstanding
+	detail bill (all details)
+
+
