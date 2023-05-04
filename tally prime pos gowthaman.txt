@@ -1,0 +1,77 @@
+Point Of Sales(POS)
+===================
+def: bill book in your own format.
+
+Question:
+Purchase from sakthi
+	Cpu 100 no’s 7500
+	Monitor 150 no’s 3000
+	Mouse 200 no’s 300
+Sales to nisha
+	Cpu 75 no’s 10000
+	Monitor 100 no’s 4000
+	Mouse 50 no’s 500
+Discount some -10%
+crdit or debit card /Cash / cheque accepted on sales.
+
+step 1: company creation
+	features : no changes.
+	gst: no
+step 2:
+	ledger creation.
+	purchase ---------> purchase accounts
+	sakthi-------------> sundry creditors
+	sales---------------> sales accounts
+	nisha--------------> sundry debtors
+	discount--------> indirect expenses
+	bank--------->bank accounts
+step 3:
+	stock groups----->any name
+	unit-------------> nos
+	stock items----> 
+		cpu,monitor,mouse
+step 4:
+	gateway of tally --> create --> accounting master --> voucher type
+	
+	voucher name: mybill
+	select type of voucher: sales
+	activate this voucher type: yes
+	method of voucher numbering: automatic
+	use advance configuration: yes
+	use effective dates for voucher: yes
+	allow zero valued transaction: yes
+	make this voucher type optionalas default: yes
+	allow narration in voucher: no
+	provide narration for each ledger in voucher: no
+	enable default accounting allocation : yes
+	set/alter default accounting entries: yes
+		sales : percentage: 100%   override items default: no
+		sales : ontotalsales 
+	print voucher after saving: yes
+	use for bos invoicing : yes
+	message to print1: welcom....
+	message to print2: 100% original products
+	default title to print: your shop name
+	set/alter declaration : yes
+		goods once sold will not be taken
+	name of class: mybill
+		gift vouchers: no
+		credit/debit card payment: no
+		cheque/dd: yes
+		cash: yes
+	sales: 100%   no
+	discount ontotal sales -10% 	
+	end of list --> yes.
+
+step 5: voucher --> purchase
+	f9 (date:alt+f2  starting date: 1-4-23  ,  end date: 31-3-24)
+		f2: 1-4-23
+	sales: f8
+	
+	
+		
+		
+	
+
+
+
