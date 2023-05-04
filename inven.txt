@@ -1,0 +1,48 @@
+inventary question: 
+==============
+maintain stock details.
+
+closing balance:
+
+itemname			qty		unit		price/unit
+
+LED TV			5		no's		11000/no's
+Fridge			3		no's		10000/no's
+nuts			10		pks		8/pks
+pipe			10		ft		25/ft
+
+purchase from raja
+
+itemname			qty		unit		price/unit
+
+LED TV			50		no's		12000/no's
+Fridge			30		no's		11000/no's
+nuts			100		pks		10/pks
+pipe			100		ft		30/ft
+
+sales to banu
+
+itemname			qty		unit		price/unit
+LED TV			10		no's		15000/no's
+Fridge			10		no's		16000/no's
+nuts			10		pks		20/pks
+pipe			10		ft		50/ft
+
+maintain balance stock.
+
+step 1: company creation
+step 2: ledger creation (don't add stock items)
+	purchase,sales,sundry creditors , sundry debtors
+step 3: create--> inventary master -->stock group --> ex: abc electronics (accept + yes)
+step 4: unit: no's, pks, ft
+step 5: stock items--> led tv,fride , .... unit ok (don't add amount)
+step 6:
+	voucher : f9 (purchase - only single entry mode)
+	itemname		qty      rate         amount
+
+step 7: voutcher : f8 sales single entry mode
+
+step 8: gateway of tally:(report)
+	stock summary	
+	
+invoice report: voucher : ctrl+p ==> preview
