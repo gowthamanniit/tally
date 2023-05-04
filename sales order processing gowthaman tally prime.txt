@@ -1,0 +1,50 @@
+Sales Order Processing:
+=================
+	question:
+	======
+	shagul  company sales 50 pieces of HCL Computer to shyam&co Company on 1.4.2022 at Rate Rs.15000 , but send only 40 pieces of Computer. Due to damage, 10 pieces returned from his receiver and finally send only 30 pieces of computer.
+Maintain the above transactions.
+
+meaning:
+	sales order: 50 pieces of HCL computer
+	delivery note: 40 pieces of HCL computer
+	return inword: (or) sales return : 10 pieces of HCL Computer
+	sales: final 30 pices of HCL Computer
+
+step 1:
+	company creation
+	show all features: Enable Job Order Processing: Yes
+
+step 2:
+	Gateway of Tally-->master-->create-->accounting master-->ledger
+	
+	sales --> sales a/c
+	shayam & co --> sundry debtors
+
+step 3:
+	Gateway of Tally--> master --> create -->inventary master--> 
+	Stock groups: shaul company
+	unit: No's (numbers)
+	stock item: hcl computer
+	note:default 100 nos opening bal
+step 4:
+	Gateway of Tally --> Transaction -->Voucher
+	
+	f10 other vouchers -->
+
+	ctrl +f8 (sales order) --> activate now --> yes
+	
+	alt+f8(delivery note) -->activate now --> yes
+	
+	ctrl+f6 (retrun in or rejection in or sales return)
+
+	f8(sales)
+
+step 5: report
+	Gateway of Tally --> Display More Reports
+	--> statement of inventary -->Sales order outstanding
+	stock item -->hcl computer -->enter enter -->alt+f1
+		
+	
+	
+	
