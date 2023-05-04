@@ -1,0 +1,70 @@
+VAT:VALUE ADDED TAX:
+
+
+sum:
+	purchase goods from raman
+		
+	item		qty       unit		rate/qty 	vat tax %
+	
+	petrol		1000 	   litre	35		210%
+	diesel		2000	   litre	29		200%
+	gas		2000	   kg	20		150%	
+	
+	sales goods to BALA
+	
+	item		qty       unit		rate/qty 	vat tax %
+	
+	petrol		5 	   litre	35		210%
+	diesel		5	   litre	29		200%
+	gas		15	   kg	20		150%	
+1) company creation
+	features:
+	enable vat:yes
+	vat details:
+	set/alter tax/rate details: yes
+2) ledger creation
+	bala---------> s.c
+	purchase vat 150%----> purchase accounts
+		type of ledger --------> not applicable
+		is vat/cst applicaable --> applicable
+		set/alter vat details--> yes
+		nature of transaction: undefined
+		tax rate: 150%
+		tax type: taxable
+	input vat 150%-------> duties and taxes
+	percentage of calculation-----> 150%
+	method of calculation----------> on total sales
+	rounding method----------------> not applicable
+	include in accessible value calculation for -->vat
+	method of calculation--> based on value
+	
+	------------------
+purchase 200
+purchase 210
+input vat 200
+input vat 210
+	same procedure
+	.......................	
+3) stock groups
+	any name
+    unit: nos
+    stock items:
+	gas,petrol,diesel
+	don't use: vat,set/alter details 
+4)  voucher
+	purchase
+	party a/cname: cash/raman
+	purchase ledger: purchase vat 150%
+	entrollement date: 1-4-2022
+	dispatched date:    1-4-2022
+	gas :
+
+	input vat 150% (auto)
+
+	ctrl + p
+	preview
+5) display more reports from gateway of tally
+	vat report --ectax
+
+
+	
