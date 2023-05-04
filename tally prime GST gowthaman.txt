@@ -1,0 +1,76 @@
+GST: Tally Prime 
+
+closing balance:
+
+sno 	item		   qty	unit	rate/unit	 	cgst	sgst
+1.	ground nut chocolate	   100	pks	20/pks		6.5%	6.5%
+2.	gold		   10	gram	4500/gram		1.5%	1.5%
+3.	Tv		   10	nos	25000/nos		11%	11%
+
+sales to ramya
+
+sno 	item		   qty	unit	rate/unit	 	cgst	sgst
+1.	ground nut chocolate	   10	pks	25/pks		6.5%	6.5%
+2.	gold		   5	gram	4650/gram		1.5%	1.5%
+3.	Tv		   5	nos	30000/nos		11%	11%
+
+step 1: company creation.	
+	Enable goods and service tax: yes
+	set/alter GST details: yes(no changes)
+	Enable tax liability for advance tax: yes
+	Enable tax liability for on reverse charge: yes
+	Enable GST classification: yes
+	provide Bond/LUT details: yes
+		date: from: 1-4-23
+		         to: 31-3-24
+	e-way bill applicable: yes
+	application from: 1-4-23
+	Threashold limit includes: invoice value
+	Threashold limit : 500000
+	applicable for intrastate: yes
+	Threashold lime: 500000
+	print e-way bill with invoice: yes
+	e-invoice applicable: yes
+	application from: 1-4-23
+	Bill from place: Tamil nadu
+	Default period for e-invoice report: 3 days
+	send e-way bill details with e-invoice: yes
+	accept:  yes
+step 2:
+	ledger creation:
+	sales -------------> sales account
+		Type of ledger: not applicable
+	Staturary details:
+	---------------------
+	is GST Applicable: not applicable
+	set/alter details: no
+	include in accessible value calculation for:GST
+	appropriate to: services
+	method of calculation: based on value.
+ 	Ramya----------> sundry debtors
+	CGST 6.5%------------>duties and taxes
+		percentage of calcuation: 6.5
+		method of calculation: on total sales
+		rounding method: not applicable
+		include accesible value for calculation: GST
+		Appropriate to : services
+		method of calculation : based on value.
+	SGST 6.5%------------->same
+	CGST 1.5%,SGST1.5%,CGST 11% SGST 11%------->same
+
+step 3:
+	stock groups
+	unit
+	stock items
+		is gst applicable : not applicable
+		set/alter: no
+	add opening balance
+step 4: 
+	voucher : f8
+	sales
+
+step 5:
+	reports --> GST reports
+	
+	
+			
