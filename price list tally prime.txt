@@ -1,0 +1,34 @@
+price list:
+==========
+step 1: company creation.
+	features: enable mutiple price levels : yes
+step 2: ledger creation:
+	purchase ---> purchase a/c
+	sales --> sales a/c
+	manufacturer --> sundry creditors
+	meena and co --> sundry debtors
+	rita and co --> sundry debtors
+	discount-indirect expenses
+step 3: stock group
+	unit
+	stock item
+	price level -->delear
+		 --> retailer
+	price list(stock group)
+		select : delear / retailer
+	fix rate :
+		chair	from: nil    lessthan: 15     amt enter			
+			15                          40            ,,
+			40                nil	       ,,
+		same as computer chair,kushan chair
+		
+step 4: voucher:
+	f9 --> purchase
+	f8: sales (don't forget to select price level :delar/retailer)
+	
+	check price level according to no. of stock items
+	..............
+	note: must add discount -1 %
+
+step 5: 
+	stock summary
