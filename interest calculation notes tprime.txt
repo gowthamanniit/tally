@@ -1,0 +1,35 @@
+Interest Calculation:
+================
+question:
+question:1
+		
+muthu capital Rs. 1,00,000 (interest 12%,365 days)
+
+Deposit to KVB Rs. 10,000 (interest 6%,365 days)
+
+deposit to finance Rs. 25,000(Rs.2, montly(30 days))
+
+	
+	step 1: company creation
+	step 2: enable interest calculation: Yes
+
+	step 3: ledger creation:
+		muthu capital -------> capital account (liability)
+		kvb bank --------------> bank accounts(current assets)
+		Finance-----------------> sundry debtors (current assets)
+
+		activate interest calculations: yes
+
+		for amt added: yes
+
+		Rate: 12%				1%
+		no. of days: 365 days per year		30 days per month
+		openening balance: amount add
+				cr --> payable
+				dr--> receivable
+	step 4:
+		display more reports
+		--> statement of accounts
+		--> interest calculations
+		--> interest payable/receivable
+                    
