@@ -1,0 +1,35 @@
+Expiry Date:
+==========
+step 1:
+	company creation
+	features: enable batches: yes
+		maintain expiry date for batches : yes
+step 2:
+	ledger creation:
+	purchase-------------> purchase account
+	bhava medical-----> sundry creditors
+	sales------------------> sales accounts
+	sena medicals--------> sundry debtors
+step 3:
+	inventary master:
+	==============
+	stock group -->medical
+	unit------------> nos
+	stock item-------> kalpal,........
+			additional details:
+			maintain batches: yes
+			track date of manufacturing : yes
+			use expiry dates: yes
+step 4:
+======
+	voucher:
+	=======
+	purchase - f9
+	sales -f8
+step 5:
+=========
+	
+	display :  reports --->  statement of inventary --> ageing analysis --> stock group name --> select : answer
+			
+step 4:
+	
