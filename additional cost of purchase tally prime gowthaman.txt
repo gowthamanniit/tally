@@ -1,0 +1,36 @@
+additional cost of purchase
+====================
+meaning:
+To find average price of single products.
+
+know actual cost of stock item due to other charges to get profit on each stock item.
+
+step 1:  company creatioin
+step 2:  ledger creation
+	capital --------> capital account
+	icici bank-----> bank account
+	purchase------> purchase account
+	johnson and johnson ---> sundry creditors
+	octori duty --> direct expenses
+			ctrl + I --> more details 
+			inventary values are affected: Yes			
+	packing ------> direct expenses
+	carriage------> direct expenses
+step 3: inventary master:
+	stock group: johnson and johnson baby items
+	unit: nos --> numbers
+	stock items --> baby oil
+		       baby soap
+		       baby powder
+step 4:
+	voucher
+	alt+f2-------> financial year:
+		 1-4-2023 to 31-3-2024
+	f2-----------> date change
+		 1-4-2023
+	receipt - f6	
+	contra --> f4
+	purchase -->f9
+	payment -->f5
+step 5:
+	report
