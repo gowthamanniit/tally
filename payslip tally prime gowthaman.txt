@@ -1,0 +1,33 @@
+Payroll salary slip: Tally prime:
+===============================
+step 1:
+
+	company creation:
+	features: enable payroll: yes
+step 2:
+	create -->payroll master
+	emp group:
+		ex: manager,superwisor,cleark
+	pay head:
+		basic salary,hra,ma,ta,esi,ot,esi,pf
+		emp loan
+	employee:
+		name ,addres, designation
+		important: define salary details:yes
+		mention: bs,hra,loan....
+			accoring to employee
+step 3:
+	voucher:
+	ctrl+f4 (payroll voucher)
+
+	hra,bs,ma,ot,ta,------> earnings from emp
+	loan,esi,pf,it,pt------->deduction from emp
+	pt:professional tax
+	
+		
+step 4:
+	report -->payroll reports --> salary slip
+		select employee name--> view 
+
+	
+				

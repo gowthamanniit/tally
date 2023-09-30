@@ -1,36 +1,47 @@
-additional cost of purchase
-====================
-meaning:
-To find average price of single products.
+Additional cost of purchase:
+question:
+1. Capital Received By Cash Rs.500000
+2. Cash deposited in ICICI bank Rs.200000
+3. Purchase from JOHNSON & JOHNSON
+500 Nos of Baby oil @ Rs.50
+Octori duty 4%
+Packing Rs.500
+Carriage Rs.700
+4. Purchase from JOHNSON & JOHNSON
+500 Nos of Baby Soaps @ Rs.20
+Octori duty 4%
+Packing Rs.700
+Carriage Rs.1000
+5. Purchase from JOHNSON & JOHNSON
+200 NOS of Baby powder @ Rs.50
+Octori duty 4%
+Packing Rs.750
+Carriage Rs.1250
+ Report: Groups Alteration and Stock Summary
+steps:
+1) company creation :
+	features: gst : no
+2) ledger creation:
+	capital
+	purchase
+	bank
+	johnson and johnson
+	packing		direct exp more details
+			inventary values affected : yes
+	carriage	,,	,,
+	octoriduty	,,	,,
+3) stock group name
+   unit of measure
+   stock item
 
-know actual cost of stock item due to other charges to get profit on each stock item.
+4) vourcher
+	receipt
+	contra
+	purchase single entry mode
+	payment
+	 (add direct exp details)
+5) report
+	statement of inventary
+	stock query
 
-step 1:  company creatioin
-step 2:  ledger creation
-	capital --------> capital account
-	icici bank-----> bank account
-	purchase------> purchase account
-	johnson and johnson ---> sundry creditors
-	octori duty --> direct expenses
-			ctrl + I --> more details 
-			inventary values are affected: Yes			
-	packing ------> direct expenses
-	carriage------> direct expenses
-step 3: inventary master:
-	stock group: johnson and johnson baby items
-	unit: nos --> numbers
-	stock items --> baby oil
-		       baby soap
-		       baby powder
-step 4:
-	voucher
-	alt+f2-------> financial year:
-		 1-4-2023 to 31-3-2024
-	f2-----------> date change
-		 1-4-2023
-	receipt - f6	
-	contra --> f4
-	purchase -->f9
-	payment -->f5
-step 5:
-	report
+
