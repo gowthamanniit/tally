@@ -1,7 +1,7 @@
 VAT:VALUE ADDED TAX:
 
 
-sum:
+question:
 	purchase goods from raman
 		
 	item		qty       unit		rate/qty 	vat tax %
