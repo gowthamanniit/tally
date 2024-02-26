@@ -1,0 +1,29 @@
+Order Processing:
+=================
+
+two types:
+	meaning:	1. purchase order processing
+
+	purchase order(post,courier,whatsapp,online) ====>ctrl+f9
+		
+	receipt note ===> alt+f9
+
+	return outward/rejection out/purchase retrun ===> ctrl+f5
+	goods return to
+
+	purchase (final bill) ---> f9
+
+
+
+
+meaning:	2. sales order processing
+		
+	sales order =====> ctrl+f8
+
+	delivery note ====> alt+f8
+	
+	return inward/ rejection in/ sales retrun/   ===> ctrl+f6
+	goods return from 
+
+	sales--------->f8
+	

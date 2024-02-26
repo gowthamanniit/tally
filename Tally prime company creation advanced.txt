@@ -1,0 +1,217 @@
+company creation advanced:
+==========================
+select company:
+================
+
+	use: to open previous company details.
+
+	gateway of tally
+
+	alt +f3
+	
+	type: company name
+
+	select and enter
+
+shut company:
+=============
+	use: remove company (not delete) from active screen / gateway of tally.
+	purpose: fast access			
+
+	desktop f3 / labtop fun+f3
+
+	shut company -->click
+
+	company select
+
+	enter
+
+alter company:
+==============
+	purpose: To change/edit company details.
+
+	gateway of tally
+
+	f3
+
+	alter company
+
+	slect company
+
+	change details
+
+	enter
+
+	pre request:
+
+	before alter you should select company first.
+
+delete company:
+===============
+	pupose: to delete permanent in your system.
+
+	pre request:
+
+	before delete you should select company first.
+
+	gateway of tally
+
+	f3
+
+	alter company
+
+	select company
+
+	alt+D
+
+	yes
+
+	are you sure to delete? yes(enter)
+
+Group Company:
+
+	use: Combine or join two companies.
+
+	pre request:
+	create 2 companies (simple)
+	select 2 companies
+
+	gateway of tally
+	
+	f3
+
+	create company
+
+	alt+R (group company)
+
+	new name:..........
+
+	membership comapnay:
+		previous 2 companies select
+
+	enter yes
+
+	check: trial balance
+
+Backup Company:
+===============
+purpose:
+safety purpose
+
+advantage:
+==========
+- less amount of memory
+- transfer account details from one system to another system.
+
+pre request :
+find tally path:
+create company-->first line patt
+
+gateway of tally
+
+alt+y
+
+backup
+
+backup destination path:
+
+d:/yourfoldername>
+
+select your backup companies
+
+end list
+
+yes
+
+check your d:/backup folder
+
+delete your already backuped company in tally prime.
+
+
+restore:
+==========
+
+gateway of tally
+
+alt+y
+
+speciy path:d:\tallybackup
+
+select companies
+
+end list
+
+yes
+
+
+check deleted companines
+
+split company:
+==============
+
+gateway of tally
+
+alt+f3 
+
+select company for split
+
+alt+y
+
+split
+
+spilt data
+
+split from : 1-Jan-2024(user define)
+
+first company: companyname (1-Apr-23)
+second company: companyname (1-Jan-24)
+
+enter or yes...
+
+security control:
+================
+
+gateway of tally
+
+select company for security control
+
+alt+k
+
+security
+
+company select
+
+control user access to company data: yes
+
+username(administrator):
+password:
+email address: type any
+enable tally audit features: no
+disallow opening educational mode: no
+add user after saving security settings: yes
+------
+shut company
+-------
+select company -->it will ask user name and password
+
+change password:
+================
+
+step 1: select company	
+	already created security control
+
+step 2:
+	alt + k
+
+step 3:
+	change password
+
+step 4:
+	enter old password: type correct password
+	otherwise we can't create new password
+step 5:
+	shut company
+step 6: 
+	select company(give new password)
+
+	

@@ -1,0 +1,68 @@
+Standard purchase and sales cost:
+==================================
+
+meaning:
+	
+	The amount automattically insert during purchase/sales voucher stock item entry.
+
+you have type only qty in numeric.
+
+
+step 1:
+	company creation
+
+step 2:
+	accounting master
+
+	ledger creation
+	(purchase,sales,sundry creditor,sundry debtors)
+	don't add stock items
+step 3:
+	invenventary master
+
+	stock group -->any name 
+	unit of measure-->
+			nos, pks,ft,ltr,kg,mtr.....
+	stock item-->
+			f12 press
+
+			configures:
+			show more configuration: (no): yes
+		allow standard rates for stock items : yes
+		or
+		provide standard buying and selling Rates: yes
+
+		stock item:type(fridge)
+		unit:No's
+		Additional details:
+		set standard rates: yes
+		purchase rates: 500 rs
+		sales rates:   800 rs
+
+		same as remaining stock items
+step 4:
+	voucher
+
+		purchase: f9:
+
+	you can see automatted purchase price in price column
+	when entry stock items
+
+		sales : f8
+
+	you can see automatted sales price in price column when entry stock items.
+
+step 5:
+		gateway of tally -->stock summary
+
+
+
+
+
+
+
+
+
+
+
+

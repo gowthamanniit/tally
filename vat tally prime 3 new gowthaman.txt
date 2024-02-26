@@ -1,0 +1,46 @@
+vat:
+step 1:
+	company creation
+	features: enable vat : yes
+
+step 2:
+	ledger creation
+
+	- raman --> sundry creditor
+	- purchase vat 210% --> purchase account
+	type of ledger: not applicable
+	include in accessible value calculation: not applicable
+	set/alter vat details: yes
+	nature of transaction: undefined
+	tax rate: 210%
+	tax type: taxable(automatic)
+	- input vat 210% --> duties and taxes
+	type of duty/tax: vat
+	percentage of calculation: 210%
+	rounding method: not applicable
+
+step 3:
+	stock group: any name
+	unit 	   : ltr
+	stock item : petrol
+		     name: any name
+		     unit:ltr
+step 4:
+	voucher
+	purchase
+	invoice number:
+	party name: sun.creditor
+	purchase ledger: purchase vat 210%
+	
+	type:
+	pertol --->
+	i type -->automatic input vat 210% -->auto result
+
+step 5:
+	report: vat report -->ec tax
+
+
+
+	
+		
+	

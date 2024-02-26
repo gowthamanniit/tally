@@ -1,0 +1,41 @@
+voucher steps:
+===============
+
+step 1:
+ 	company creation
+
+	f3 --> create company
+
+	 features:    gst --> no
+	accept: yes
+step 2:
+ 	gateway of tally -->
+	create-->ledger
+	ledgername must be unique
+	under: groupname
+	amount: don't enter
+step 3:
+	gateway of tally --> voucher
+	setting: f12 --> settings
+	--> use cr/dr instead of by/to during voucher entry:yes
+step 4:
+	mode always : double entry / voucher mode not invoice mode
+
+	voucher mode: double entry (cr,dr)
+invoice mode: single entry (no cr,db only one amount column)
+	
+	ctrl+h --> change your modes
+
+step 5: don't forget to select voucher name before entry
+
+step 6: gateway of tally
+	reports-->trail balance : all entry
+	view full entry in details: alt+f1
+	
+	profit and loss a/c: purchase,sales,income,exp
+	balance sheet: liability and assent
+
+
+	
+		
+	

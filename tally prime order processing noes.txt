@@ -1,0 +1,34 @@
+Example: ( purchase Order)
+
+vishnu company purchased 50 pieces of HCL Computer from ABC Company on 1.4.2014 at Rate Rs.15000 , but received only 40 pieces of Computer. Due to damage, 10 pieces returned to his supplier and finally received only 30 pieces of computer.
+Maintain the above transactions.
+
+Example: ( sales Order)
+
+shagul  company sold 50 pieces of HCL Computer to mani&c0 Company on 1.4.2016 at Rate Rs.15000 , but send only 40 pieces of Computer. Due to damage, 10 pieces returned from his receiver and finally send only 30 pieces of computer.
+Maintain the above transactions.
+
+purchase order processing:
+==========================
+step:1
+	company creation:
+	features: enable job order processing : yes
+step 2:
+	ledger creation:
+	purchase: purchase account
+	ABC Company: sundry creditors
+step 3:
+	stock group: any name
+	unit: nos
+	stock item: hcl computer
+step 4:
+	voucher
+
+	f10: enable : purchase order : ctrl+f9
+		      receipt note	alt+f9
+		      rejection out	ctrl+f5
+	f9
+	alt+p --> preview --> alt+z(zoom)
+
+	
+	

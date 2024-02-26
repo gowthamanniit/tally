@@ -1,0 +1,65 @@
+GST: Tally Prime 
+
+closing balance:
+
+sno 	item		   qty	unit	rate/unit	 	cgst	sgst
+1.	ground nut chocolate	   100	pks	20/pks		6.5%	6.5%
+2.	gold		   10	gram	4500/gram		1.5%	1.5%
+3.	Tv		   10	nos	25000/nos		11%	11%
+
+sales to ramya
+
+sno 	item		   qty	unit	rate/unit	 	cgst	sgst
+1.	ground nut chocolate	   10	pks	25/pks		6.5%	6.5%
+2.	gold		   5	gram	4650/gram		1.5%	1.5%
+3.	Tv		   5	nos	30000/nos		11%	11%
+
+steps:
+	1) company creation
+
+	gst: yes
+	
+	registration type: Regular
+	periodicity GSTR1 - Monthly
+	e-invoice details:
+	e-invoice applicable: yes
+	appliation from: 1-4-23
+	invoice from bills:31-3-24
+
+	2) ledger creation
+
+	sales-->sales a/c, 
+		type of ledger: not applicable
+		saturtory details:
+		include accessible values of calculation: GST
+		Appropriate: services
+		method of calculation:Based on value
+	
+	ramya-->sundry debtors
+	cgst @ 6.6%-->duties and taxes
+	sgst @ 6.5%--> duties and taxes
+		type of duties and taxes: others
+		percentage of calculation: 6.5 %
+		method of calculation: on total sales
+		rounding method: not applicable
+		saturtory details:
+		include in accessible values of calculation: GST
+		appropriate to: services
+
+		method of calculation: Based on value
+	same: 1.5%, 11%
+	3) stock group name
+	   unit of measure(pks,gm,nos)
+	   stock item (as usal)
+
+	4) sales (f8 voucher)
+
+	as usal
+		after entery:
+		cgst @6.5% auto calculation
+		sgst @6.5% auto calculation
+	alt+p(check invoice)
+
+	
+
+	
