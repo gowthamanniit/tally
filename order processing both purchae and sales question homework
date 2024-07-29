@@ -1,0 +1,55 @@
+1. The document records various purchase and sales order details for a company between April 1-30. It notes the receipt of Rs. 50 lakh capital, deposit of Rs. 2 lakh in SBI bank. Purchase orders were made to Rahul, Kiran and Sana Textiles for items like saris, chudidhars, t-shirts and jeans. Invoices were raised for orders from Kiran and Sana Textiles. Materials from Sana Textiles' order were received with some returns. Sales orders were received from Arjun Stores and Brinkley Garments for items like saris, chudidhars, t-shirts and jeans, and an invoice and delivery note were
+
+detailed explanation:
+=====================
+
+purchase order - ctrl +f9
+receipt note   - alt+f9
+return outward - ctrl+F5
+purchase - f9
+
+sales order -->ctrl+f8
+delivery note -->alt+f8
+return inward --> ctrl+f6
+sales ---> f8
+
+we are purchase order:
+ragul,sana,kiran -----> sundry creditors
+saris, chudidhars, t-shirts and jeans --> stock items
+purchase order --> saries 50 (ragul tex)  Rs. 500
+purchase order --> t-shirt Rs. 300 & jeans Rs. 500    50 nos (kiran tex) 
+purchase order --> chudidhar's 50 (sana tex) Rs 1000
+
+Receipt --> saries 40 (ragul tex)  
+Receipt --> t-shirt 30 nos & jeans  50 nos (kiran tex) 
+Receipt --> chudidhar's 25 (sana tex)
+
+rejection out --> saries 4 (ragul tex)  
+rejection out --> t-shirt 3 nos & jeans  5 nos (kiran tex) 
+rejection out --> chudidhar's 10 (sana tex)
+
+maintain purchase tranaction.
+
+we are sales order:
+===================
+arjun stores      --> sundry debtors
+brinkly garments --> sundry debtors
+
+sales order --> saries 20 (Rs. 700) --> arjun stores
+sales order --> Tshirt 10 (Rs. 750) --> brinkly garments stores
+sales order --> jeans 12 (Rs. 1050) --> arjun stores(50%) + brinkly garments stores(50%)
+
+delivery  --> saries 10 (Rs. 700) --> arjun stores
+delivery  --> Tshirt 7 (Rs. 750) --> brinkly garments stores
+delivery  --> jeans 6 (Rs. 1050) --> arjun stores(50%) + brinkly garments stores(50%)
+
+rejection in --> saries 1 (Rs. 700) --> arjun stores
+rejection inb  --> Tshirt 2 (Rs. 750) --> brinkly garments stores
+rejection in --> jeans 6 (Rs. 1050) --> arjun stores(50%) + brinkly garments stores(50%)
+
+maintain sales order transaction.
+
+report: outstanding details both purchase and sales.
+
+
+
