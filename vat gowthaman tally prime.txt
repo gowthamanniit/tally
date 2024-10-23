@@ -51,6 +51,8 @@ input vat 210
     stock items:
 	gas,petrol,diesel
 	don't use: vat,set/alter details 
+	or
+	use: vat applicable, set/alter details : 210% ...
 4)  voucher
 	purchase
 	party a/cname: cash/raman
