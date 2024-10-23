@@ -65,6 +65,15 @@ input vat 210
 	preview
 5) display more reports from gateway of tally
 	vat report --ectax
+===========how to install ectax===============
+1) goto website: www.tallysolutions.com
+2) click download
+3) click support files (this link is bottom of the page)
+4) click extension for tax
+5) click setup.exe file
+6) close tally prime before install
+
+
 
 
 	
