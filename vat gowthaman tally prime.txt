@@ -23,26 +23,29 @@ question:
 	vat details:
 	set/alter tax/rate details: yes
 2) ledger creation
-	bala---------> s.c
-	purchase vat 150%----> purchase accounts
+	raman----->s.c
+	bala---------> s.d
+	purchase vat 210%----> purchase accounts
 		type of ledger --------> not applicable
 		is vat/cst applicaable --> applicable
 		set/alter vat details--> yes
 		nature of transaction: undefined
-		tax rate: 150%
+		tax rate: 210%
 		tax type: taxable
-	input vat 150%-------> duties and taxes
-	percentage of calculation-----> 150%
-	method of calculation----------> on total sales
+	input vat 210%-------> duties and taxes
+	type of duites and taxes : vat
+	percentage of calculation-----> 210%
 	rounding method----------------> not applicable
-	include in accessible value calculation for -->vat
-	method of calculation--> based on value
 	
 	------------------
 purchase 200
 purchase 210
 input vat 200
 input vat 210
+output vat 210
+output vat 200
+output vat 150
+sale 210 200 150
 	same procedure
 	.......................	
 3) stock groups
@@ -50,8 +53,7 @@ input vat 210
     unit: nos
     stock items:
 	gas,petrol,diesel
-	don't use: vat,set/alter details 
-	or
+	
 	use: vat applicable, set/alter details : 210% ...
 4)  voucher
 	purchase
