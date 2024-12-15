@@ -1,7 +1,11 @@
 Example: ( purchase Order)
 
-vishnu company purchased 50 pieces of HCL Computer from ABC Company on 1.4.2014 at Rate Rs.15000 , but received only 40 pieces of Computer. Due to damage, 10 pieces returned to his supplier and finally received only 30 pieces of computer.
+vishnu company purchased 50 pieces of HCL Computer from ABC Company on 1.4.2014
+at Rate Rs.15000 , but received only 40 pieces of Computer. Due to damage, 10 
+pieces returned to his supplier and finally received only 30 pieces of computer.
+
 Maintain the above transactions.
+
 
 step1: company createion
          enable job order processing: yes
