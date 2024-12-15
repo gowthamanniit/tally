@@ -2,7 +2,10 @@ Sales Order Processing:
 =================
 	question:
 	======
-	shagul  company sales 50 pieces of HCL Computer to shyam&co Company on 1.4.2022 at Rate Rs.15000 , but send only 40 pieces of Computer. Due to damage, 10 pieces returned from his receiver and finally send only 30 pieces of computer.
+	shagul  company sales 50 pieces of HCL Computer to shyam&co Company on 
+1.4.2022 at Rate Rs.15000 , but send only 40 pieces of Computer. Due to damage, 
+10 pieces returned from his receiver and finally send only 30 pieces of computer.
+
 Maintain the above transactions.
 
 meaning:
