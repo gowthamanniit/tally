@@ -4,14 +4,14 @@ purchase from bhava medicals
 
 item 		nos 	price 	MED 	exp.d
 kalpal 		50 	2.00 	1/7/2022 	1/12/22
-Vicksaction 500 	35 	1.50 	1/4/2022 	1/11/22
+Vicksaction 500 35 	1.50 	1/4/2022 	1/11/22
 digene 		40 	0.50 	1/2/2022 	1/10/22
 paracitamol 	45 	2 	1/5/2022 	1/11/22
 
 sales to sena medicals
 item 		nos 	price 	batchno
 kalpal 		35 	3 	kpo11
-vicks action500 	25 	2.50 	vk412
+vicks action500 25 	2.50 	vk412
 digene 		34 	1 	dd675
 paracitamol 	40 	3 	pc345
 
