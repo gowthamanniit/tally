@@ -71,6 +71,40 @@ step 4:
 
 step 5:
 	reports --> GST reports
+
+========================new model===============================================
+step 1: company creation : gst yes
+step 2: ledger creation:
+	sales---> sales account
+	satutory details
+	include in calculation v....--> Gst
+	appropirate to :services
+	method of calculation:based on value
+	Gst applicability: not applicable
+step 3:
+	ramya:sundry debtors
+step 4:
+	cgst 11%:
+	duites and taxes
+	type of duty/tax: others
+	percentage of calculation: 11%
+	method of calculation: on total sales
+	rounding method:not applicable
+	statutory details:
+	include value in calculation : gst
+	appropiate to: goods and services
+	method of calculation: based on value
+	remaining:
+	sgst 11%, cgst 6.5 sgst 6.5  cgst 1.5 sgst 1.5
+step 5:
+	stock group,unit,item,
+step 6:
+	voucher sales
+	(ctrl+p invoice)
+step 7:
+	reports : display more reports : statory reports: gst 
 	
+        
+
 	
 			
