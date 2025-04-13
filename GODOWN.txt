@@ -6,7 +6,8 @@
 	questions:
 	====
 	
-	
+	closing balance:
+	================
 	ITEM		QTY		C.P	S.P	KRR	TRY
 	
 	COMPUTER	100 NOS 	                15000	20000	30	70
