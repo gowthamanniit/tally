@@ -23,12 +23,11 @@ step 2: f11--> satutary and taxation -->company select --> enable gst : yes
 step 3:  ledger creation:
 	sales --> sales account
 		staturay information
-		===============
-		is gst application: not applicable
-		set/alter details : no
+		===============		
 		include in accessable value calculation for: GST
-		appropirate to: services
+		appropirate to: goods
 		method for calculation: based on value
+		GST applicability: not applicable
 	ramya --> sundry debtors
 
 	cgst6.5% --> duties and taxation
@@ -67,4 +66,5 @@ step 6:
 	display --> tax report
 
 	
+
 
