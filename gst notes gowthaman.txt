@@ -2,17 +2,17 @@ GST:
 
 closing balance:
 
-sno 	item		   qty	unit	rate/unit	 	cgst	sgst
-1.	ground nut chocolate	   100	pks	20/pks		6.5%	6.5%
-2.	gold		   10	gram	4500/gram		1.5%	1.5%
-3.	Tv		   10	nos	25000/nos		11%	11%
+sno 	item		      qty	unit	rate/unit	 	cgst	sgst
+1.	ground nut chocolate  100	pks	     20/pks		    6.5%	6.5%
+2.	gold		          10	gram	4500/gram		1.5%	1.5%
+3.	Tv		              10	nos	    25000/nos		11%	     11%
 
 sales to ramya
 
-sno 	item		   qty	unit	rate/unit	 	cgst	sgst
-1.	ground nut chocolate	   10	pks	25/pks		6.5%	6.5%
-2.	gold		   5	gram	4650/gram		1.5%	1.5%
-3.	Tv		   5	nos	30000/nos		11%	11%
+sno 	item		      qty	unit	rate/unit	 	cgst	sgst
+1.	ground nut chocolate 10	    pks	    25/pks		    6.5%	6.5%
+2.	gold		         5	    gram	4650/gram		1.5%	1.5%
+3.	Tv		             5	    nos	    30000/nos		11%	     11%
 
 
 step 1: company creation.
